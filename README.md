@@ -2,8 +2,6 @@
 # PROGRAM :
 i)import cv2
 import numpy as np
-
-# Load YOLOv4 network
 net = cv2.dnn.readNet("yolov4.weights", "yolov4.cfg")
 
 # Load the COCO class labels
