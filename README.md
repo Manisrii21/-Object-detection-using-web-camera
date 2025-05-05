@@ -1,5 +1,6 @@
 # -Object-detection-using-web-camera
 # PROGRAM :
+```
 i)import cv2
 import numpy as np
 net = cv2.dnn.readNet("yolov4.weights", "yolov4.cfg")
@@ -74,6 +75,7 @@ while True:
 # Release video capture and close windows
 cap.release()
 cv2.destroyAllWindows()
+```
 
 # OUTPUT:
 ![WhatsApp Image 2025-05-05 at 09 31 58_a4ccf7ef](https://github.com/user-attachments/assets/28851bbd-6d4d-4efb-97d8-2054b99d801e)
